@@ -1,0 +1,22 @@
+# Ignore compiled classes and build output
+*.class
+build/
+dist/
+
+# Ignore NetBeans private settings
+nbproject/private/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore logs
+*.log
+
+# Ignore generated source folders (if any)
+build/generated-sources/
+
+# Ignore IDE configs (if not sharing the same IDE)
+*.iml
+.idea/
+.vscode/
