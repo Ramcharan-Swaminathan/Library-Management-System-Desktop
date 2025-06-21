@@ -1,21 +1,26 @@
-# Library Management System (Desktop App - Java Swing)
+# 📚 Library Management System (Desktop App - Java Swing)
 
 ## 📌 Description
-A desktop-based application for managing library operations. Built using Java Swing and JFrame. Developed in NetBeans IDE.
+A desktop-based application for managing library operations such as user management, book catalog, and borrowing functionality. This application is built using Java Swing (JFrame UI components) and connects to an Oracle database using JDBC. Designed and developed using NetBeans IDE.
 
-## 🚀 How to Run
+---
 
-1. Clone the repo
-2. Open in NetBeans
-3. Update DB credentials in `DBConnection.java`
-4. Build and run the project
+## 🚀 How to Run the Project
 
-## 📁 Folder Structure
-- `src/` - Java source code
-- `assets/` - Images/icons used in GUI
-- `nbproject/` - NetBeans project config
+### 🛠 Prerequisites
+- Java JDK 8 or later
+- Oracle Database (XE or higher)
+- NetBeans IDE
+- ojdbc17.jar (Oracle JDBC driver) – already included in the `lib/` folder
 
-## 💻 Tech Used
-- Java
-- Swing (GUI)
-- Oracle DB (JDBC)
+### 🧩 Steps to Run
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-username/library-management-system-desktop.git
+2. Open in NetBeans:
+   File → Open Project → Select Library_Management_System
+3. Configure JDBC:
+   Right-click project → Properties → Libraries → Add JAR/Folder → lib/ojdbc17.jar
+   
+   
