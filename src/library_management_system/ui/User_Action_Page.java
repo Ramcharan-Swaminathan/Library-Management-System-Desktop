@@ -347,7 +347,7 @@ public class User_Action_Page extends JFrame implements ActionListener {
     }
 
     private void updateBookAvailability(String bookId, int change) throws SQLException {
-        String sql = "UPDATE Book SET AvailableCopies = AvailableCopies + ? WHERE ISBN = ?";
+        String sql = "UPDATE Book SET AvailableCopies = AvailableCopies + ? WHERE ISBN = ? AND AvailableCopies > 0";
         try (PreparedStatement ps = conn.prepareStatement(sql)) {
             ps.setInt(1, change);
             ps.setString(2, bookId);
